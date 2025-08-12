@@ -1,0 +1,50 @@
+{
+	"name": "dietitian",
+	"main": "expo-router/entry",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "expo start",
+		"tunnel": "expo start --tunnel",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web",
+		"test": "jest --watchAll",
+		"lint": "expo lint",
+		"inst": "npm install",
+		"clean": "npm ci"
+	},
+	"jest": {
+		"preset": "jest-expo"
+	},
+	"dependencies": {
+		"@react-native-async-storage/async-storage": "1.23.1",
+		"@react-native-community/datetimepicker": "8.2.0",
+		"@shopify/flash-list": "1.7.3",
+		"axios": "^1.8.4",
+		"expo": "~52.0.46",
+		"expo-barcode-scanner": "^13.0.1",
+		"expo-camera": "^16.0.18",
+		"expo-image": "^2.0.7",
+		"expo-linear-gradient": "^14.0.2",
+		"expo-router": "^4.0.20",
+		"expo-splash-screen": "~0.29.24",
+		"lodash": "^4.17.21",
+		"react-dom": "18.3.1",
+		"react-native": "0.76.9",
+		"react-native-element-dropdown": "^2.12.4",
+		"react-native-mask-input": "^1.2.3",
+		"react-native-reanimated": "~3.16.1",
+		"react-native-web": "~0.19.13",
+		"react-navigation": "^4.4.4"
+	},
+	"devDependencies": {
+		"@babel/core": "*",
+		"@expo/ngrok": "^4.1.0",
+		"@types/jest": "*",
+		"@types/lodash": "^4.17.16",
+		"@types/react": "~18.3.12",
+		"jest": "*",
+		"typescript": "^5.3.3"
+	},
+	"private": true
+}
